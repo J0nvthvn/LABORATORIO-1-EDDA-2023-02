@@ -35,7 +35,7 @@ public class Main {
                 /* Así creo una canción! */
                 Song song = new Song(id, name, artists, year);
                 
-                System.out.printf("Ingresando canción: %s\n", song.toString());
+                System.out.printf("Ingresando canción: %s%n", song.toString());
 
                 /* Así accedo al controlador de canciones! */
                 songController.addSong(song);

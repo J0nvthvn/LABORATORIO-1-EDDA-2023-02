@@ -26,6 +26,7 @@ public class LinkedList implements LinkedListInterface {
 
     // Agrega una canción al final de la lista
     public void add(Song song) {
+        
     }
 
     // Elimina una canción específica de la lista

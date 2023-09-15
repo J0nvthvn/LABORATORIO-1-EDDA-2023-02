@@ -30,33 +30,15 @@ public class Song implements SongInterface{
     }
     
     // Getters
-    public String getTitle() {
-        return null;
-    };
-    public String getArtist() {
-        return null;
-    };
-    public String getYear() {
-        return null;
-    };
-    public String getId() {
-        return null;
-    };
-    public String toString() {
-        return null;
-    };
+    public String getTitle() {return title;}
+    public String getArtist() {return artist;}
+    public String getYear() {return year;}
+    public String getId() {return id;}
+    public String toString() {return title+", "+artist+","+year+", "+id;}
 
     // Setters
-    public void setTitle(String title) {
-        this.title = title;
-    };
-    public void setArtist(String artist) {
-        this.artist = artist;
-    };
-    public void setYear(String year) {
-        this.year = year;
-    };
-    public void setId(String id) {
-        this.id = id;
-    };
+    public void setTitle(String title) {this.title = title;}
+    public void setArtist(String artist) {this.artist = artist;}
+    public void setYear(String year) {this.year = year;}
+    public void setId(String id) {this.id = id;}
 }
